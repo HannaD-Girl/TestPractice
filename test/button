@@ -1,0 +1,12 @@
+describe('ButtonId', function() {
+    it('DynamicIDbutton', function() {
+     
+   //Visit the Website
+    cy.visit("http://uitestingplayground.com/dynamicid");
+    
+   // Clicking on Widget Menu Item
+   cy.get('#menu-top > li:nth-child(3) > a').click(); // need update66
+
+   
+  })
+})
